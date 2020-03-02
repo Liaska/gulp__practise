@@ -1,0 +1,28 @@
+$color: rgb(228, 111, 130);
+$pixel: 50%;
+
+body {
+    background-color: white;
+    h1 {
+        font-weight: 1000;
+    }
+}
+
+a  {
+    transition: all 0.5s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+nav {
+    background: blue;
+    width: $pixel;
+    color: white;
+    font-size: 23px;
+}
